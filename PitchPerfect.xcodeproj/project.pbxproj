@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3036D61C1F0801005AD470 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3036D51C1F0801005AD470 /* RecordedAudio.swift */; };
 		8EB4E3DA1C1E71EE00B2DC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4E3D91C1E71EE00B2DC57 /* AppDelegate.swift */; };
 		8EB4E3DC1C1E71EE00B2DC57 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4E3DB1C1E71EE00B2DC57 /* RecordViewController.swift */; };
 		8EB4E3DF1C1E71EE00B2DC57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4E3DD1C1E71EE00B2DC57 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E3036D51C1F0801005AD470 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		8EB4E3D61C1E71EE00B2DC57 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB4E3D91C1E71EE00B2DC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB4E3DB1C1E71EE00B2DC57 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				8EB4E3D91C1E71EE00B2DC57 /* AppDelegate.swift */,
 				8EB4E3DB1C1E71EE00B2DC57 /* RecordViewController.swift */,
+				8E3036D51C1F0801005AD470 /* RecordedAudio.swift */,
 				8EB4E3ED1C1E78B500B2DC57 /* PlaySoundsViewController.swift */,
 				8EB4E3DD1C1E71EE00B2DC57 /* Main.storyboard */,
 				8EB4E3E01C1E71EE00B2DC57 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3036D61C1F0801005AD470 /* RecordedAudio.swift in Sources */,
 				8EB4E3DC1C1E71EE00B2DC57 /* RecordViewController.swift in Sources */,
 				8EB4E3EE1C1E78B500B2DC57 /* PlaySoundsViewController.swift in Sources */,
 				8EB4E3DA1C1E71EE00B2DC57 /* AppDelegate.swift in Sources */,
@@ -292,6 +296,7 @@
 				8EB4E3EA1C1E71EE00B2DC57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -37,7 +37,6 @@
                                 <state key="normal" image="stopButton"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Xh-kE-zMb"/>
-                                    <segue destination="c8W-3Q-vUz" kind="show" id="z5q-R3-iGL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -86,6 +85,7 @@
                         <outlet property="recordingLabel" destination="evB-J0-iH2" id="krA-Od-onA"/>
                         <outlet property="startButton" destination="aJK-8I-0Zs" id="g92-6g-aE4"/>
                         <outlet property="stopButton" destination="HtP-3S-VIx" id="J6G-6J-AkG"/>
+                        <segue destination="c8W-3Q-vUz" kind="show" identifier="stopRecording" id="oef-XS-ZQV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -114,9 +114,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMJ-t1-wgy">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="stopButton"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="175" y="527" width="50" height="50"/>
-                                </variation>
                                 <connections>
                                     <action selector="stopAudio:" destination="c8W-3Q-vUz" eventType="touchUpInside" id="MK2-Ud-pz6"/>
                                 </connections>
@@ -145,12 +142,12 @@
                                 <exclude reference="oBy-5D-qwO"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="CxV-yy-zwz"/>
-                                <exclude reference="dPg-vQ-olJ"/>
+                                <exclude reference="hlt-ZL-9su"/>
                                 <exclude reference="YMM-pl-d4I"/>
                                 <exclude reference="kIc-8W-3Gu"/>
                                 <exclude reference="yNs-JG-oHU"/>
-                                <exclude reference="hlt-ZL-9su"/>
+                                <exclude reference="CxV-yy-zwz"/>
+                                <exclude reference="dPg-vQ-olJ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -160,12 +157,12 @@
                                 <include reference="oBy-5D-qwO"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="CxV-yy-zwz"/>
-                                <include reference="dPg-vQ-olJ"/>
+                                <include reference="hlt-ZL-9su"/>
                                 <include reference="YMM-pl-d4I"/>
                                 <include reference="kIc-8W-3Gu"/>
                                 <include reference="yNs-JG-oHU"/>
-                                <include reference="hlt-ZL-9su"/>
+                                <include reference="CxV-yy-zwz"/>
+                                <include reference="dPg-vQ-olJ"/>
                             </mask>
                         </variation>
                     </view>
