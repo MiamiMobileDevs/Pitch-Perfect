@@ -13,6 +13,7 @@
 		8EB4E3E11C1E71EE00B2DC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4E3E01C1E71EE00B2DC57 /* Assets.xcassets */; };
 		8EB4E3E41C1E71EE00B2DC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4E3E21C1E71EE00B2DC57 /* LaunchScreen.storyboard */; };
 		8EB4E3EE1C1E78B500B2DC57 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4E3ED1C1E78B500B2DC57 /* PlaySoundsViewController.swift */; };
+		8EB4E3F01C1E87D500B2DC57 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4E3EF1C1E87D500B2DC57 /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8EB4E3E31C1E71EE00B2DC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EB4E3E51C1E71EE00B2DC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB4E3ED1C1E78B500B2DC57 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaySoundsViewController.swift; path = ../PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		8EB4E3EF1C1E87D500B2DC57 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				8EB4E3ED1C1E78B500B2DC57 /* PlaySoundsViewController.swift */,
 				8EB4E3DD1C1E71EE00B2DC57 /* Main.storyboard */,
 				8EB4E3E01C1E71EE00B2DC57 /* Assets.xcassets */,
+				8EB4E3EF1C1E87D500B2DC57 /* movie_quote.mp3 */,
 				8EB4E3E21C1E71EE00B2DC57 /* LaunchScreen.storyboard */,
 				8EB4E3E51C1E71EE00B2DC57 /* Info.plist */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				8EB4E3E41C1E71EE00B2DC57 /* LaunchScreen.storyboard in Resources */,
 				8EB4E3E11C1E71EE00B2DC57 /* Assets.xcassets in Resources */,
+				8EB4E3F01C1E87D500B2DC57 /* movie_quote.mp3 in Resources */,
 				8EB4E3DF1C1E71EE00B2DC57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
