@@ -20,7 +20,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -29,7 +28,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func starRecordAudio(sender: UIButton) {
@@ -39,7 +37,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
         let recordingName = "my_audio.wav"
         let pathArray = [dirPath, recordingName]
         let filePath = NSURL.fileURLWithPathComponents(pathArray)
-        print(filePath)
         
         let session = AVAudioSession.sharedInstance()
         try! session.setCategory(AVAudioSessionCategoryPlayAndRecord)
@@ -79,7 +76,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
             
             let data = sender as! RecordedAudio
             playSoundsVC .receivedAudio = data
-            
             
         }
     }

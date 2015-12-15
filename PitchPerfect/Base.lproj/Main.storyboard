@@ -125,11 +125,29 @@
                                     <action selector="playSlowAudio:" destination="c8W-3Q-vUz" eventType="touchUpInside" id="WSY-3v-uvk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tas-ho-Nhl">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="chipmunkButton"/>
+                                <connections>
+                                    <action selector="playChipmunkAudio:" destination="c8W-3Q-vUz" eventType="touchUpInside" id="MTI-cw-dP5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvP-p9-GYt">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="darthvaderButton"/>
+                                <connections>
+                                    <action selector="playDarthVaderAudio:" destination="c8W-3Q-vUz" eventType="touchUpInside" id="vJT-4H-X9I"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="tas-ho-Nhl" firstAttribute="top" secondItem="oBy-5D-qwO" secondAttribute="bottom" constant="87" id="2Qp-Sz-r10"/>
                             <constraint firstItem="oBy-5D-qwO" firstAttribute="leading" secondItem="rFL-R2-YLj" secondAttribute="leadingMargin" constant="26" id="CxV-yy-zwz"/>
+                            <constraint firstItem="tas-ho-Nhl" firstAttribute="leading" secondItem="rFL-R2-YLj" secondAttribute="leadingMargin" constant="26" id="Kx1-ZS-yZr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NvP-p9-GYt" secondAttribute="trailing" constant="43" id="WYt-26-uIZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="5uP-W0-At6" secondAttribute="trailing" constant="43" id="YMM-pl-d4I"/>
+                            <constraint firstItem="NvP-p9-GYt" firstAttribute="top" secondItem="5uP-W0-At6" secondAttribute="bottom" constant="87" id="cWg-HS-LwX"/>
                             <constraint firstItem="oBy-5D-qwO" firstAttribute="top" secondItem="sEC-Hz-wvd" secondAttribute="bottom" constant="64" id="dPg-vQ-olJ"/>
                             <constraint firstItem="bn2-f4-5HQ" firstAttribute="top" secondItem="AMJ-t1-wgy" secondAttribute="bottom" constant="33" id="hlt-ZL-9su"/>
                             <constraint firstItem="5uP-W0-At6" firstAttribute="top" secondItem="sEC-Hz-wvd" secondAttribute="bottom" constant="64" id="kIc-8W-3Gu"/>
@@ -140,14 +158,20 @@
                                 <exclude reference="5uP-W0-At6"/>
                                 <exclude reference="AMJ-t1-wgy"/>
                                 <exclude reference="oBy-5D-qwO"/>
+                                <exclude reference="tas-ho-Nhl"/>
+                                <exclude reference="NvP-p9-GYt"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="hlt-ZL-9su"/>
-                                <exclude reference="YMM-pl-d4I"/>
-                                <exclude reference="kIc-8W-3Gu"/>
-                                <exclude reference="yNs-JG-oHU"/>
                                 <exclude reference="CxV-yy-zwz"/>
                                 <exclude reference="dPg-vQ-olJ"/>
+                                <exclude reference="YMM-pl-d4I"/>
+                                <exclude reference="kIc-8W-3Gu"/>
+                                <exclude reference="2Qp-Sz-r10"/>
+                                <exclude reference="Kx1-ZS-yZr"/>
+                                <exclude reference="WYt-26-uIZ"/>
+                                <exclude reference="cWg-HS-LwX"/>
+                                <exclude reference="yNs-JG-oHU"/>
+                                <exclude reference="hlt-ZL-9su"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -155,14 +179,20 @@
                                 <include reference="5uP-W0-At6"/>
                                 <include reference="AMJ-t1-wgy"/>
                                 <include reference="oBy-5D-qwO"/>
+                                <include reference="tas-ho-Nhl"/>
+                                <include reference="NvP-p9-GYt"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="hlt-ZL-9su"/>
-                                <include reference="YMM-pl-d4I"/>
-                                <include reference="kIc-8W-3Gu"/>
-                                <include reference="yNs-JG-oHU"/>
                                 <include reference="CxV-yy-zwz"/>
                                 <include reference="dPg-vQ-olJ"/>
+                                <include reference="YMM-pl-d4I"/>
+                                <include reference="kIc-8W-3Gu"/>
+                                <include reference="2Qp-Sz-r10"/>
+                                <include reference="Kx1-ZS-yZr"/>
+                                <include reference="WYt-26-uIZ"/>
+                                <include reference="cWg-HS-LwX"/>
+                                <include reference="yNs-JG-oHU"/>
+                                <include reference="hlt-ZL-9su"/>
                             </mask>
                         </variation>
                     </view>
@@ -191,6 +221,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chipmunkButton" width="100" height="100"/>
+        <image name="darthvaderButton" width="100" height="100"/>
         <image name="fastButton" width="100" height="100"/>
         <image name="microphone" width="50" height="50"/>
         <image name="slowButton" width="100" height="100"/>
